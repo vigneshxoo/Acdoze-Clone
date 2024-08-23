@@ -1,0 +1,42 @@
+.link{
+    color:black;
+   
+}
+.connect-ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+   
+    
+}
+
+.dev{
+    line-height: 20px;
+    
+    display: flex;
+    flex-direction: column;
+   align-items:start;
+    justify-content: center;
+    text-align: start;
+  
+    margin-left: 130px;
+   
+   
+
+}
+.bc{
+    width: 100%;
+
+    
+    background-color: #F8F9FB;
+  
+}
+/* .slider-container{
+    
+    position: absolute;
+    bottom: 10px;
+
+} */

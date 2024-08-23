@@ -1,0 +1,80 @@
+.relative{
+    position: relative;
+
+}
+.boxone{
+    width: 250px;
+    height: 310px;
+    
+    position: absolute;
+    top: 0;
+}
+.boxone :hover{
+    z-index: 0;
+    opacity: 1%;
+}
+.secondd-box{
+    width: 310px;
+    height: 310px;
+    background-color: #00AEEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.secondd-box button{
+    width: 130px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+ cursor: pointer;
+}
+.secondd-box p{
+    width: 270px;
+    text-align: center;
+    font-size: 16px;
+font-weight: 400;
+}
+/* routing slider  */
+ /* .slick-list{
+    width: 85%;
+    
+} */
+.slider-containerx{
+    margin-left: 180px;
+
+}
+.back{
+width: 100%;
+height: 100%;
+    background-color: #F8F9FB;
+}
+
+.iconarrow-right{
+    position:absolute;
+    bottom: -60px;
+    left: 150px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.iconarrow-left{
+    position:absolute;
+    bottom: -60px;
+    left: 100px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+
+}
+/* scond scroll css */
+.button button{
+    margin-top: 300px;
+    display: none;
+
+}
